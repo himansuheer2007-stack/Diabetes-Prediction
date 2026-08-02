@@ -15,7 +15,7 @@ st.set_page_config(
 # Load Model
 # -----------------------------
 model = joblib.load("diabetes_model.pkl")
-
+prediction = model.predict(input_data)
 # -----------------------------
 # Title
 # -----------------------------
